@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Movie = require('../models/User'); 
+const Movie = require('../models/Movie'); 
 
 // CREATE
 router.post("/", verify, async (req, res) => {
